@@ -13,7 +13,12 @@ export default function StringInput(props: StringInputProps) {
     return (
         <label>
             {props.label}
-            <input type="text" value={props.value ?? ""} onChange={handleChange}/>
+            <input
+                name={props.name}
+                type="text"
+                value={props.value ?? ""}
+                onChange={handleChange}
+            />
         </label>
     );
 }

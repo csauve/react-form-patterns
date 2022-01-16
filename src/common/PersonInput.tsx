@@ -18,11 +18,11 @@ export default function PersonInput(props: PersonInputProps) {
             <legend>{props.label}</legend>
             <StringInput
                 label="Name"
-                {...bindField(props, "name")}
+                {...bindField<string>(props, "name")}
             />
             <AddressInput
                 label="Address"
-                {...bindField(props, "address")}
+                {...bindField<Address>(props, "address")}
             />
         </fieldset>
     );

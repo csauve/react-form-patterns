@@ -1,13 +1,12 @@
 {
   "name": "web-sandbox",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A playground for React forms boilerplate",
   "scripts": {
     "dev": "parcel src/home.html"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "csauve",
+  "license": "MIT",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.2.0",
     "parcel": "^2.2.0",

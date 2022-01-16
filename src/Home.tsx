@@ -7,8 +7,9 @@ export default function Home() {
 
     return (
         <>
-            <h1>Example</h1>
+            <h1>Example form</h1>
             <PersonInput
+                name="person"
                 label="Person"
                 value={person}
                 onChange={setPerson}
